@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ width: 1000px;
+ margin: 20px auto;
+ 
+}
+.logo{
+  color:aquamarine;
+  font-size: 28px;
+
+}
+span{
+  color: grey;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a{
+  color:grey;
+  text-decoration: none;
+  font-weight: bold
+  ;
+}
+nav ul li a:hover{
+  color: aquamarine;
+
+}
+.test{
+  color: aquamarine;
+  display: flex;
+
+  
+
+margin: 34px  0px;
+font-family:sans-serif;
+}
+.separate{
+ display: grid;
+  grid-template-columns: 50% 50%;
+  display: flex;
+  
+  
+ grid-column-gap: 1rem; 
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 20px;
+}
+.separate > div{
+  padding: 1rm;
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  width: 1000px;
+  margin: 20px auto
+  ;width: 1000px;
+  
+}
+.strong{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  display: flex;
+  grid-column-gap: 1rem; 
+}
+#headpain{
+  background-color:#00CCb1;
+  
+}
+#migraine{
+  background-color:#3D80DF;
+}
+#Tension{
+  background-color:#1B3734 ;
+}
+.headache{
+  border-radius: 5PX;
+grid-template-rows: 10rem;
+padding-top:5px;
+padding-bottom: 15px;
+margin: 30px;
+}
